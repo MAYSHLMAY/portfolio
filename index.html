@@ -1,38 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
-     <link rel="icon" href="assets/img/logs.png">
-     <link rel="stylesheet" href="./css/style.css">
-     <link href="https://fonts.cdnfonts.com/css/pricedown" rel="stylesheet">
-     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Mikiyas Dawit - Portfolio</title>
+   <meta charset="UTF-8">
+   <title>Miki Portfolio</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+   <link rel="icon" href="./assets/img/logs.png">
+   <link rel="stylesheet" href="./css/style.css">
+   <link href="https://fonts.cdnfonts.com/css/pricedown" rel="stylesheet">
+   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <header class="fixed top-0 left-0 z-50 w-full py-4 px-2 bg-white header" id="header">
-        <nav class="navbar container">
-           <a href="#" class="brand"><img class="logo" src="logo.jpg" alt=""></a>
-           <div class="burger" id="burger">
-              <span class="burger-line"></span>
-              <span class="burger-line"></span>
-              <span class="burger-line"></span>
-           </div>
-  
-           <div class="menu" id="menu">
-              <ul class="menu-inner">
-                 <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                 <li class="menu-item"><a href="#about" class="menu-link">About Me</a></li>
-                 <li class="menu-item"><a href="#projects" class="menu-link">Projects</a></li>
-                 <li class="menu-item"><a href="#contact" class="menu-link">Contact</a></li>
-              </ul>
-           </div>
-           <button class="switch" id="switch">
-              <i class="switch-light bx bx-sun"></i>
-              <i class="switch-dark bx bx-moon"></i>
-           </button>
-        </nav>
-     </header>
+   <header class="fixed top-0 left-0 z-50 w-full py-4 px-2 bg-white header" id="header">
+      <nav class="navbar container">
+         <a href="#" class="brand"><img class="logo" src="./assets/img/logo.jpg" alt=""></a>
+         <div class="burger" id="burger">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+         </div>
+
+         <div class="menu" id="menu">
+            <ul class="menu-inner">
+               <li><a href="#" class="menu-link">Home</a></li>
+               <li><a href="#about" class="menu-link">About Me</a></li>
+               <li><a href="#projects" class="menu-link">Projects</a></li>
+               <li><a href="#contact" class="menu-link">Contact</a></li>
+            </ul>
+         </div>
+         <button class="switch" id="switch">
+            <i class="switch-light bx bx-sun"></i>
+            <i class="switch-dark bx bx-moon"></i>
+         </button>
+      </nav>
+   </header>
+
+   <div class="wrap">
+      <div class="spinner"></div>
+   </div>
+
+
+   <main class="main">
+
+      <section class="section banner banner-section">
+         <div class="container banner-column hero">
+            <img class="banner-image" src="assets/img/maxe.png" alt="Illustration">
+            <div class="banner-inner">
+               <code><h1 class="sub_head"><strong>#0x00 - Yo, homie !</strong> </h1></code>
+               <h1 class="heading-xl"><code>> </code>I'm Mikiyas Dawit <code id="typed"></code></h1>
+
+               <button class="btn btn-darken btn-inline">
+                  <a href="#projects" class="menu-link">My Projects</a><i class="bx bx-right-arrow-alt"></i>
+               </button>
+            </div>
+         </div>
+         <div class="home-hero__mouse-scroll-cont">
+            <div class="mouse"></div>
+         </div>
+      </section>
+      <section class="section banner banner-section">
+         <div class="container about" id="about">
+            <h1 class="heading-xl">About Me</h1>
+
+            <div class="about__content">
+               <div class="about__content-main">
+                  <h3 class="about__content-title"><code>Get to Know Me</code></h3>
+                  <div class="about__content-details">
+
+                     <h5 class="about__content-details-para">
+                        Yo, what's up, homie? It's
+                        <strong>Mikiyas Dawit</strong>
+                        , a hungry student with a passion for learning and
+                        a love for <strong> web development. </strong> Right now,
+                        I'm all about web development,
+                        creating slick websites that deliver top-notch user experiences.
+                        <strong>HTML</strong>, <strong>CSS and its framework (Tailwind)</strong>, are my tools for
+                        bringing ideas to life on the web.
+                     </h5>
+                  </div>
+               </div>
+               <div class="about__content-skills">
+                  <h3 class="about__content-title"><code>Skills</code></h3>
+                  <div class="skills">
+                     <div class="skillset">HTML</div>
+                     <div class="skillset">CSS</div>
+                     <div class="skillset">Github</div>
+                     <div class="skillset">WireFrame</div>
+                     <div class="skillset">Design</div>
+                     <div class="skillset">Gaming</div>
+                     <div class="skillset">FootBall</div>
+                     <div class="skillset">Figma</div>
+                     <div class="skillset">Google ADS</div>
+                  </div>
+               </div>
+            </div>
+      </section>
+
+      <section class="section banner banner-section">
+         <div class="container about" id="about">
+            <h3 class="about__content-title"><code>Time Line, Hobby, Education level</code></h3>
+
+            <div class="rap">
+               <ul class="timeline">
+                  <strong>
+                     <li>2021-2023 - I discovered my love for programming during my high school years. which fueled my
+                        curiosity to dive deeper into the world of web development.</li>
+                  </strong>
+                  <strong>
+                     <li>2023-2024 - I came across DirectEd, The program's hands-on approach and comprehensive
+                        curriculum allowed me
+                        to sharpen my technical skills while working on real-world projects.</li>
+                  </strong>
+                  <strong>
+                     <li>Educational Background - I attended highschool in science shared campus school, and I'm
+                        currently a freshman at AAU </li>
+                  </strong>
+                  <strong>
+                     <li>
+                        Hobby - I am an avid reader and love immersing myself in captivating books.
+                        Whether it's fiction, non-fiction, or technology-related literature,
+                        I find that reading broadens my perspectives and fuels my creativity.
+                     </li>
+                  </strong>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <section class="section banner banner-section">
+         <div class="container projects" id="projects">
+            <h1 class="heading-xl">My Projects</h1>
+            <div class="container">
+               <main class="grid">
+                  <article>
+                     <img src="assets/gifs/taco html.gif" alt="Sample photo">
+                     <div class="text">
+                        <h3>Little Taco HTML</h3>
+                        <p>"Little Taco" is an HTML-based website that showcases a fictional taco restaurant. The
+                           website has a clean and structured layout,
+                           .</p>
+                        <p>
+                           Techs used:
+                        <ul class="tech-tags">
+                           <li class="tech-tag">HTML</li>
+                        </ul>
+                        </p>
+                        <a class="main_button" href="https://github.com/MAYSHLMAY/little-Taco-HTML-.git">Github Link</a>
+                        <a class="main_button" href="https://mayshlmay.github.io/little-Taco-HTML-/">Live Demo</a>
+                     </div>
+                  </article>
+                  <article>
+                     <img src="assets/gifs/taco css0.gif" alt="Sample photo">
+                     <div class="text">
+                        <h3>Little Taco CSS</h3>
+                        <p>
+                           "Little Taco" is a mini-project featuring a CSS-based website with
+                           a minimalist design, vibrant colors, and mouth-watering food imagery.</p>
+                        <p>
+                           Techs used:
+                        <ul class="tech-tags">
+                           <li class="tech-tag">CSS</li>
+                           <li class="tech-tag">HTML</li>
+                        </ul>
+                        </p>
+                        <a class="main_button" href="https://github.com/MAYSHLMAY/little-taco-css-.git">Github Link</a>
+                        <a class="main_button" href="https://mayshlmay.github.io/little-taco-css-/">Live Demo</a>
+                     </div>
+                  </article>
+                  <article>
+                     <img src="assets/gifs/Acme_Rockets.gif" alt="Sample photo">
+                     <div class="text">
+                        <h3>Rocket Tailwind</h3>
+                        <p>"Rocket Acme" is an Tailwind-based website created using the Tailwind, html and css. </p>
+                        <p>
+                           Techs used:
+                        <ul class="tech-tags">
+                           <li class="tech-tag">CSS</li>
+                           <li class="tech-tag">HTML</li>
+                           <li class="tech-tag">Tailwind CSS</li>
+
+                        </ul>
+                        </p>
+                        <a class="main_button" href="https://github.com/MAYSHLMAY/rocket-tailwind.git">Github Link</a>
+                        <a class="main_button" href="https://mayshlmay.github.io/rocket-tailwind/">Live Demo</a>
+                     </div>
+                  </article>
+               </main>
+            </div>
+         </div>
+      </section>
+      <section class="section banner banner-section">
+         <div class="container contact section bd-container " id="contact">
+            <h1 class="heading-xl">Contact Me</h1>
+            <div class="contact__container bd-grid">
+               <div class="contact__content bd-grid">
+                  <div class="contact__box">
+                     <i class="bx bx-home contact__icon"></i>
+                     <h3 class="contact__title">Location</h3>
+                     <span class="contact__description">Gulele 9/15 Addis Ababa, Ethiopia</span>
+                  </div>
+                  <div class="contact__box">
+                     <i class="bx bx-phone contact__icon"></i>
+                     <h3 class="contact__title">Phone</h3>
+                     <span class="contact__description">0934504883</span>
+                  </div>
+                  <div class="contact__box">
+                     <i class="bx bx-envelope contact__icon"></i>
+                     <h3 class="contact__title">Gmail</h3>
+                     <span class="contact__description">lioscared@gmail.com</span>
+                  </div>
+                  <div class="contact__box">
+                     <i class="bx bx-chat contact__icon"></i>
+                     <h3 class="contact__title">Chat</h3>
+                     <div>
+                        <a href="+251934504883" class="contact__social"><i class="bx bxl-whatsapp-square"></i></a>
+                        <a href="https://t.me/@Lioscout" class="contact__social"><i class="bx bxl-telegram"></i></a>
+                        <a href="#" class="contact__social"><i class="bx bxl-github"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <form action="" class="contact__form">
+                  <div class="contact__inputs">
+                     <input type="text" placeholder="Name" class="contact__input">
+                     <input type="email" placeholder="Email" class="contact__input">
+                  </div>
+                  <textarea name="" id="" cols="0" rows="7" placeholder="Message" class="contact__input"></textarea>
+                  <input type="submit" value="Send Message" class="button contact__button">
+               </form>
+            </div>
+      </section>
+      <footer class="footer">
+         <div class="footer__container bd-container">
+            <h2 class="footer__title">Mikiyas Dawit</h2>
+            <p class="footer__description">I am Mikiyas Dawit and this is my personal website.</p>
+            <div class="footer__social">
+               <a href="@Lioscout" class="footer__link"><i class="bx bxl-telegram"></i></a>
+               <a href="https://github.com/MAYSHLMAY/" class="footer__link"><i class="bx bxl-github"></i></a>
+               <a href="lioscared@gmail.com" class="footer__link"><i class="bx bxl-gmail"></i></a>
+            </div>
+            <p class="footer__copy">&#169; <strong>2024 Mikiyas Dawit.</strong> All right reserved</p>
+         </div>
+      </footer>
+   </main>
+   <!-- partial -->
+   <script src="./script.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+   <script>
+      new Typed('#typed', {
+         strings: ['Web Developer', 'Coder', 'Learner', '404 Not Found'],
+         typeSpeed: 75,
+         backSpeed: 75,
+         loop: true,
+         startDelay: 1200,
+         backDelay: 50,
+         loopCount: Infinity,
+         showCursor: true,
+         cursorChar: "_",
+         attr: null,
+         contentType: 'html',
+      });
+
+   </script>
 </body>
+
 </html>

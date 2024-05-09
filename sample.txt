@@ -1,2 +1,0 @@
-4px solid #f1a717
-6px solid #f1a717

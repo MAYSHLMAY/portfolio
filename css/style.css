@@ -7,6 +7,7 @@
   --scrollbar-thumb-color: #888;
   --scrollbar-thumb-hover-color: #555;
   --color-blue-500: hsl(215, 83%, 53%);
+  --gta-color: #f1a717;
 }
 
 *,
@@ -85,6 +86,16 @@ header {
   background-blend-mode: multiply;
 }
 
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.hero {
+  margin-top: 5em;
+}
+
 .section {
   margin: 0 auto;
   background: url(../assets/img/samusa.jpg), linear-gradient(to left, #e5e5e5, hsl(0deg 0% 100%));
@@ -124,7 +135,7 @@ header {
 
 .mouse_container {
   position: absolute;
-  bottom: -12%;
+  bottom: 1%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -213,15 +224,7 @@ header {
 
 
 
-.logo {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
 
-.hero {
-  margin-top: 5em;
-}
 
 @keyframes showup {
   0% {
@@ -505,7 +508,7 @@ header {
 
 
 body.darkmode {
-  color: #f1a717;
+  color: var(--gta-color);
   background-color: hsl(217deg 14.57% 7.93%);
 }
 
@@ -527,7 +530,7 @@ body.darkmode {
 }
 
 .darkmode .menu {
-  color: #f1a717;
+  color: var(--gta-color);
   background: #030303;
 }
 
@@ -536,11 +539,11 @@ body.darkmode {
 }
 
 .darkmode main .section .mouse_container .mouse:before {
-  background-color: #f1a717;
+  background-color: var(--gta-color);
 }
 
 .darkmode main .section {
-  border-bottom: 1px solid #f1a717;
+  border-bottom: 1px solid var(--gta-color);
   background: url(../assets/img/sample.jpg), linear-gradient(#211f29, #000000);
   background-size: cover;
   background-repeat: no-repeat;
@@ -559,7 +562,7 @@ body.darkmode {
 
 
 .darkmode main section .mouse_container .mouse {
-  border: 2px solid #f1a717;
+  border: 2px solid var(--gta-color);
 }
 
 .darkmode main section .contact .bd-grid .bd-grid .contact__box {
@@ -567,7 +570,7 @@ body.darkmode {
 }
 
 .darkmode main section .contact .bd-grid .bd-grid .contact__box .contact__icon {
-  color: #f1a717;
+  color: var(--gta-color);
 }
 
 
@@ -581,7 +584,7 @@ body.darkmode {
 }
 
 .darkmode .btn-darken {
-  background-color: #f1a717;
+  background-color: var(--gta-color);
   color: #000;
 }
 
@@ -608,11 +611,11 @@ body.darkmode {
 }
 
 .darkmode::-webkit-scrollbar-thumb {
-  background: #f1a717;
+  background: var(--gta-color);
 }
 
 .darkmode::-webkit-scrollbar-thumb:hover {
-  background: #f1a717;
+  background: var(--gta-color);
 }
 
 
@@ -621,7 +624,7 @@ body.darkmode {
   transition: opacity 0.5s;
   max-width: 100%;
   height: auto;
-  border-bottom: 2px solid #f1a717;
+  border-bottom: 2px solid var(--gta-color);
   object-fit: cover;
   justify-self: center;
 }
@@ -742,6 +745,7 @@ body.darkmode {
 }
 
 /*===== CONTACT ME =====*/
+
 .contact__container {
   row-gap: 2.5rem;
   padding: 1.5em;
@@ -821,10 +825,6 @@ body.darkmode {
   border: none;
 }
 
-
-
-
-
 .contact h1 {
   text-align: center;
   margin-bottom: 1em;
@@ -835,6 +835,9 @@ body.darkmode {
   margin: auto;
   width: 92%;
 }
+
+
+/* About Me */
 
 .section-title,
 .section-subtitle {
@@ -905,7 +908,7 @@ body.darkmode {
 
 .timeline:before {
   content: '';
-  border-left: 4px solid #f1a717;
+  border-left: 4px solid var(--gta-color);
   position: absolute;
   left: -1px;
   top: 5px;
@@ -924,7 +927,7 @@ body.darkmode {
   width: 9px;
   height: 9px;
   background-color: rgb(168, 167, 167);
-  border: 6px solid #f1a717;
+  border: 6px solid var(--gta-color);
   top: 5px;
   left: -56px;
   border-radius: 100%;
@@ -965,7 +968,7 @@ body.darkmode {
 }
 
 .footer__container {
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 
 .footer__title {
@@ -1046,10 +1049,6 @@ body.darkmode {
 }
 
 @media only screen and (max-width: 37.5em) {
-  .mouse_container {
-    display: none;
-  }
-
   .about__content-title {
     font-size: 2rem;
     text-align: center;
@@ -1057,6 +1056,9 @@ body.darkmode {
 }
 
 @media only screen and (max-width: 56.25em) {
+  .mouse_container {
+    display: none;
+  }
   .about__content {
     grid-template-columns: 1fr;
     grid-gap: 0em;

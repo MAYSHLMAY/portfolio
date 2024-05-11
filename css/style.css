@@ -100,6 +100,7 @@ header {
   margin: 0 auto;
   background: url(../assets/img/samusa.jpg), linear-gradient(to left, #e5e5e5, hsl(0deg 0% 100%));
   border-bottom: 2px solid hsl(217, 52%, 9%);
+  background-attachment: fixed;
 }
 
 .container {
@@ -546,6 +547,7 @@ body.darkmode {
   border-bottom: 1px solid var(--gta-color);
   background: url(../assets/img/sample.jpg), linear-gradient(#211f29, #000000);
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
 }
